@@ -34,7 +34,7 @@ body {
 }
 main {
     background-color:#ddd;
-    background-image:url(images/wrinkled-white-paper-background.jpg);
+    background-image:url(../images/wrinkled-white-paper-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     border:1px solid #333;
@@ -66,14 +66,87 @@ h1 {
 }
 
 
+h2 {
+    text-transform: uppercase;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    text-align:center;
+    font-weight: normal;
+}
+
+h3 {
+    text-transform: uppercase;
+    color:rgb(20, 19, 19);
+    text-shadow:.09375rem .09375rem .09375rem #333;
+    font-family:'Alfa Slab One', Garamond, serif;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align:center;
+}
+
+h4 {
+    text-transform: uppercase;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+    font-weight: normal;
+    padding-bottom: 1.125rem;
+    text-align:center;
+}
+
+h5{
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
 /* Section & Paragraph */
 
+section {
+    margin-top: 0.5rem;
+}
 
+p {
+    margin: 1rem auto;
+    padding: 0 1rem;
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
 
+img {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 50rem;
+}
 
+figure {
+    margin-bottom: 2rem;
+}
+
+figcaption {
+    padding-top: 0.5rem;
+    text-align: right;
+}
+
+h4>span {
+    padding: 0 0.5rem;
+}
 
 /* Footer */
+
+footer {
+    padding: 1rem;
+    border-top: 2rem solid #333;
+}
 
 
